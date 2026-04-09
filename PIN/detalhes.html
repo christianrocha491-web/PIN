@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<title>Detalhes</title>
+</head>
+<body>
+
+<div class="sidebar">
+  <a href="index.html">Voltar ao mapa</a>
+</div>
+
+<div class="main">
+  <div class="header">Detalhes da Unidade</div>
+
+  <div id="conteudo"></div>
+</div>
+
+<script>
+const dados = {
+  1: {
+    nome: "UPA Vila Cristina",
+    endereco: "Rua Dona Idalina, 51",
+    horario: "24h"
+  },
+  2: {
+    nome: "UBS Cidade Alta",
+    endereco: "Rua Benedito Passuti",
+    horario: "08h - 17h"
+  }
+};
+
+// pegar id da URL
+const params = new URLSearchParams(window.location.search);
+const id = params.get("id");
+
+const unidade = dados[id];
+
+if (unidade) {
+  document.getElementById("conteudo").innerHTML = `
+    <h2>${unidade.nome}</h2>
+    <p>${unidade.endereco}</p>
+    <p>Horário: ${unidade.horario}</p>
+  `;
+}
+</script>
+
+</body>
+</html>
