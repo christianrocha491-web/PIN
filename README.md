@@ -22,3 +22,18 @@ Mapas: Leaflet.js (Integração com OpenStreetMap).
 Backend: 
 
 Banco de Dados: 
+
+👥 Autores
+Este projeto foi desenvolvido por:
+
+Nome do Aluno 1 - christianrocha491-web
+
+Nome do Aluno 2 - yasmin08cn
+
+Nome do Aluno 3 - Alípio
+
+Nome do Aluno 4 - Raelcon
+
+Nome do Aluno 5 - annafeiijo-ops
+
+Nome do Aluno 6 - eusara18
