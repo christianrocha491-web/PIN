@@ -1,5 +1,6 @@
-Mapeamento de Unidades de Saúde - Piracicaba
-Projeto Integrador apresentado pelos alunos do 4° ano do ensino médio integrado ao curso técnico em informática do IFSP Campus Piracicaba.
+Mapeamento de Unidades de Saúde 
+
+O site "Saúde Piracicaba" é um projeto Integrador apresentado pelos alunos do 4° ano do ensino médio integrado ao curso técnico em informática do IFSP Campus Piracicaba.
 
 Este projeto consiste em uma plataforma web desenvolvida para facilitar o acesso da população de Piracicaba às Unidades de Saúde (UBS, CRAB, UPAs). Utilizando a API do OpenStreetMap, o site permite que o usuário encontre a unidade mais adequada conforme sua localização e necessidade específica.
 
