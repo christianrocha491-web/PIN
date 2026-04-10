@@ -38,4 +38,4 @@ Nome do Aluno 5 - annafeiijo-ops
 
 Nome do Aluno 6 - eusara18
 
-Nome do Aluno 6 - Laura
+Nome do Aluno 7 - Laura
